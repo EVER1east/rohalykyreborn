@@ -12,7 +12,7 @@ func main() {
 	myApp := app.New()
 
 	// Створюємо нове вікно з заголовком
-	myWindow := myApp.NewWindow("Fyne App")
+	myWindow := myApp.NewWindow("Майбутній проект")
 
 	var megatitle string
 	var label = widget.NewLabel("")
