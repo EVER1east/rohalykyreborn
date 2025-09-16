@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fyne.io/fyne"
 	"fyne.io/fyne/app"
 	"fyne.io/fyne/container"
 	"fyne.io/fyne/widget"
@@ -34,6 +33,6 @@ func main() {
 	myWindow.SetContent(content)
 
 	// Встановлюємо розмір і показуємо вікно
-	myWindow.Resize(fyne.NewSize(500, 300))
+	myWindow.SetFixedSize(false)
 	myWindow.ShowAndRun()
 }
